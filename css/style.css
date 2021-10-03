@@ -135,7 +135,7 @@ h1{
 
 
 
-    .card5{
+    #card5{
         grid-area: card5;
         margin-top: 5px;
     
@@ -144,7 +144,7 @@ h1{
         background-color: #FBFBFB ; 
         padding: 50px; 
         }
-    .card4{
+    #card4{
     grid-area: card4;
     margin-top: 5px;
 
@@ -153,7 +153,7 @@ h1{
     background-color: #FBFBFB ; 
     padding: 50px; 
     }
-    .card6{
+    #card6{
         grid-area: card6;
         margin-top: 5px;
     
@@ -162,7 +162,7 @@ h1{
         background-color: #FBFBFB ; 
         padding: 50px; 
         }
-        .card7{
+        #card7{
             grid-area: card7;
             margin-top: 5px;
         
@@ -172,7 +172,7 @@ h1{
             padding: 50px; 
             }
 
-            .card8{
+            #card8{
                 grid-area: card8;
                 margin-top: 5px;
             
@@ -239,7 +239,7 @@ h1{
            
         }
 
-        .card3
+        #card3
 {
     margin-top: 5px;
     grid-area: card3;
@@ -340,7 +340,7 @@ h1{
         justify-content: space-evenly;
      
     }
-    .card1
+    #card1
 {
     grid-area: card1;
     width: 100%;
