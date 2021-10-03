@@ -42,7 +42,7 @@ h1{
         width: 100%;
         height: 100% ;
     }
-    .grid-section{
+    #grid-section{
         display: grid;
         width: 90%;
         margin: 50px auto;
@@ -117,7 +117,7 @@ h1{
         font-size: 13px;
     
     }
-    .grid-section{
+    #grid-section{
         grid-area: gs;
     }
 
