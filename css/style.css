@@ -21,10 +21,7 @@ h1{
 
     border-radius: 20px;
 }
-h2{
-    background-color: gold;
-    text-align: center;
-}
+
 
 
 
@@ -35,8 +32,6 @@ h2{
 
 
 
-
-
     img {
         object-fit:cover;
         width: 100%;
@@ -44,7 +39,7 @@ h2{
     }
     .grid-section{
         display: grid;
-        width: 75%;
+        width: 90%;
         margin: 50px auto;
         grid-template-rows: repeat(3, 190px);
         grid-template-columns: repeat(4, 1fr);
