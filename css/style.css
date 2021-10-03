@@ -9,7 +9,7 @@
 body{
   
     color:#3a3a3a;
-    background-color: rgb(243, 243, 243);
+    background-color: gold;
 }
     
 
@@ -30,6 +30,11 @@ h1{
 
 {
 
+
+    .h2bild{
+        background-color: gold;
+        text-align: center;
+    }
 
 
     img {
@@ -87,6 +92,7 @@ h1{
         letter-spacing: 1px;
         margin-bottom: 15px;
         font-weight: 400;
+        
     }
     
     .grid:hover .overly{
@@ -147,7 +153,34 @@ h1{
     background-color: #FBFBFB ; 
     padding: 50px; 
     }
+    .card6{
+        grid-area: card6;
+        margin-top: 5px;
+    
+        width: 100%;
+        min-height: 200px;
+        background-color: #FBFBFB ; 
+        padding: 50px; 
+        }
+        .card7{
+            grid-area: card7;
+            margin-top: 5px;
+        
+            width: 100%;
+            min-height: 200px;
+            background-color: #FBFBFB ; 
+            padding: 50px; 
+            }
 
+            .card8{
+                grid-area: card8;
+                margin-top: 5px;
+            
+                width: 100%;
+                min-height: 200px;
+                background-color: #FBFBFB ; 
+                padding: 50px; 
+                }
     .ikoner1{
         display:flex;
         flex-direction: column;
@@ -169,11 +202,14 @@ h1{
     "banner banner banner banner banner banner"
     "card1 card1 card1 card1 card1 card1"
     "gs gs gs gs gs gs"
-    "process process process process process process"
+   
     "card2 card2 card2 card2 card2 card2"
     "card3 card3 card3 card3 card3 card3"
     "card4 card4 card4 card4 card4 card4"
     "card5 card5 card5 card5 card5 card5"
+    "card6 card6 card6 card6 card6 card6"
+    "card7 card7 card7 card7 card7 card7"
+    "card8 card8 card8 card8 card8 card8"
     "process1 process1 process1 process1 process1 process1"
     "footer footer footer footer footer footer"
     ;
@@ -278,11 +314,7 @@ h1{
     margin-left: 10px;
 
 }
-.foto
-{
-    
 
-}  
 .gladbild{
     object-fit:cover;
     width: 100%;
