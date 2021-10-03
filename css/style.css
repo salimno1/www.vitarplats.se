@@ -72,8 +72,9 @@ h2{
     "header header header header header header"
     "banner banner banner banner banner banner"
     "card1 card1 card1 card1 card1 card1"
-    "card2 card2 card2 card2 card2 card2"
+    
     "process process process process process process"
+    "card2 card2 card2 card2 card2 card2"
     "card3 card3 card3 card3 card3 card3"
     "card4 card4 card4 card4 card4 card4"
     "card5 card5 card5 card5 card5 card5"
@@ -330,7 +331,7 @@ img{
 
 
 
-}
+
 .steg
 {
     width: 20%;
@@ -420,7 +421,6 @@ p{
 }
 
 }
-
 
 
 @media screen and (min-width: 767px) and (max-width:959px)
