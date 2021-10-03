@@ -1213,10 +1213,10 @@ header{
     footer{
         padding-top: 50px;
         grid-area: footer;
-    background-color:#7B9E8B;
+    background-color:#fbfbfb;
     height: 200px;
     
-    color: #FBFBFB;
+    color: #242424;
     display: flex;
     justify-content: space-around;
                 }
