@@ -181,6 +181,33 @@ h1{
                 background-color: #FBFBFB ; 
                 padding: 50px; 
                 }
+
+                #card9{
+                    grid-area: card9;
+                    margin-top: 5px;
+                
+                    width: 100%;
+                    min-height: 200px;
+                    background-color: #FBFBFB ; 
+                    padding: 50px; 
+                    }
+
+    .samarbete img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        object-fit:scale-down;
+    }
+    .samarbete{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+        column-gap: 10px;
+        row-gap: 10px;
+    }
     .ikoner1{
         display:flex;
         flex-direction: column;
@@ -210,6 +237,7 @@ h1{
     "card6 card6 card6 card6 card6 card6"
     "card7 card7 card7 card7 card7 card7"
     "card8 card8 card8 card8 card8 card8"
+    "card9 card9 card9 card9 card9 card9"
     "process1 process1 process1 process1 process1 process1"
     "footer footer footer footer footer footer"
     ;
@@ -1227,6 +1255,18 @@ header{
                     background-color: rgb(66, 66, 175);
                     color: #FBFBFB;
                     width: 200px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 10px;
+                    padding: 5px;
+                }
+
+                .lindabilds{
+                    margin-top: 25px;
+                    text-align: center ;
+                    background-color: rgb(66, 66, 175);
+                    color: #FBFBFB;
+                    width: 100%;
                     margin-left: auto;
                     margin-right: auto;
                     border-radius: 10px;
