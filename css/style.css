@@ -109,7 +109,7 @@ h1{
         padding: 15px 25px;
         color: #ddd;
         text-transform: uppercase;
-        background: rgb(255,255,255,0.1);
+        background: rgba(255, 238, 1, 0.582);
         text-decoration: none;
         border-radius: 50px;
         line-height: 1;
@@ -205,8 +205,8 @@ h1{
         align-items: center;
         flex-direction: row;
         
-        column-gap: 10px;
-        row-gap: 10px;
+        column-gap: 5px;
+        row-gap: 5px;
     }
     .ikoner1{
         display:flex;
@@ -1264,8 +1264,8 @@ header{
                 .lindabilds{
                     margin-top: 25px;
                     text-align: center ;
-                    background-color: rgb(66, 66, 175);
-                    color: #FBFBFB;
+                    background-color: rgb(224, 224, 224);
+                    color: #1b1b1b;
                     width: 100%;
                     margin-left: auto;
                     margin-right: auto;
