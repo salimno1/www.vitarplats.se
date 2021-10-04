@@ -373,6 +373,7 @@ h1{
     #card1
 {
     grid-area: card1;
+   
     width: 100%;
     min-height: 200px;
     background-color: #FBFBFB ; 
@@ -417,7 +418,7 @@ h1{
 .videostor{
     position: absolute;
     width: 100%;
-    height:600px;
+    height:100vh;
     object-fit:cover;
     object-position:center;
      
@@ -1194,7 +1195,7 @@ header{
 .banner{
     grid-area: banner;
     width: 100%;
-    height: 600px;
+    height: 100vh;
 }
 
 .content
