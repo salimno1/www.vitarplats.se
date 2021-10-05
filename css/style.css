@@ -1250,7 +1250,7 @@ header{
     footer{
         padding-top: 50px;
         grid-area: footer;
-    background-color:#fbfbfb;
+    background-color:gold;
     height: 200px;
     
     color: #242424;
