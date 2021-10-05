@@ -199,9 +199,9 @@ h1{
                     }
 
     .samarbete img{
-        height: 10%;
-        width: 10%;
-        border-radius: 50%;
+        height: 12%;
+        width: 12%;
+       
         object-fit:scale-down;
     }
     .samarbete{
@@ -210,9 +210,13 @@ h1{
         justify-content: center;
         align-items: center;
         flex-direction: row;
+        flex-wrap: wrap;
         
         column-gap: 5px;
         row-gap: 5px;
+    }
+    .samarbets-text h2{
+      text-align: center;
     }
     .ikoner1{
         display:flex;
