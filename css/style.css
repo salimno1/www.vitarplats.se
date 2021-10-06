@@ -1472,6 +1472,7 @@ padding-bottom: 50px;
                     height: 35%;
                     width: 35%;
                     object-fit:scale-down;
+                    margin-left: 10px;
                 }
                 .samarbete{
                     margin-top: 50px;
