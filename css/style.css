@@ -1603,7 +1603,7 @@ width: 100%;
 }
 .navbar-links.active{
     display: flex;
-    background-color: gold;
+   
 }
 
 .toggle-button{
