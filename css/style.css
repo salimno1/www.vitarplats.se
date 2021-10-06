@@ -1676,9 +1676,11 @@ header{
     grid-area: header;
     height: 100px;
     background-color:  #FBFBFB;
-   
+   position: fixed;
+   display: block;
     z-index: 1;
-   
+    float: left;
+   width: 100%;
 }
 
 
