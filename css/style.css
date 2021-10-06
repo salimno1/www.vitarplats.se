@@ -574,6 +574,7 @@ p{
 #card66{
     display:none;
 }
+#grid-section1{display:none}
 }
 
 
@@ -1081,6 +1082,7 @@ width: 100%;
     border-radius: 10px;
 
 }
+#grid-section1{display:none}
     
  
 
@@ -1226,7 +1228,17 @@ padding-bottom: 50px;
     grid-template-rows: repeat(3, 190px);
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
+    display:none;
 
+}
+#grid-section1
+{
+    display: grid;
+    width: 90%;
+    margin: 50px auto;
+    grid-template-rows: repeat(3, 190px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
 }
 .grid{
     overflow: hidden;
@@ -1312,7 +1324,7 @@ padding-bottom: 50px;
     font-size: 10px;
 
 }
-#grid-section{
+#grid-section1{
     grid-area: gs;
 }
 
