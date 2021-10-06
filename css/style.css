@@ -483,9 +483,6 @@ h1 {
   #card66 {
     display: none;
   }
-  .grid-section1 {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 959px) {
@@ -930,9 +927,6 @@ h1 {
     background-color: #7b9e8b;
     border-radius: 10px;
   }
-  .grid-section1 {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 766px) {
@@ -1056,16 +1050,11 @@ h1 {
     grid-template-rows: repeat(3, 190px);
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    display: none;
   }
-  .grid-section1 {
-    display: grid;
-    width: 90%;
-    margin: 50px auto;
-    grid-template-rows: repeat(3, 190px);
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+  .grid-section {
+    grid-area: gs;
   }
+
   .grid {
     overflow: hidden;
     border-radius: 10px;
@@ -1143,9 +1132,6 @@ h1 {
     line-height: 1;
     letter-spacing: 2px;
     font-size: 10px;
-  }
-  .grid-section1 {
-    grid-area: gs;
   }
 
   #card3 {
