@@ -489,7 +489,7 @@ h1 {
   .gladbild {
     object-fit: cover;
     width: 100%;
-    height: 400px;
+
     border-radius: 20px;
   }
   .text3 {
@@ -543,7 +543,7 @@ h1 {
 
   .videostor {
     position: absolute;
-    object-fit: cover;
+    object-fit: fill;
     width: 100%;
     height: 600px;
     display: none;
