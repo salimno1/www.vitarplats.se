@@ -895,7 +895,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
