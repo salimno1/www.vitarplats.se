@@ -950,12 +950,6 @@ h1 {
     background-color: black;
   }
 
-  .scroll {
-    height: 64px;
-    width: 64px;
-    opacity: 40%;
-  }
-
   .video {
     position: absolute;
     object-fit: cover;
