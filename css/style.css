@@ -562,14 +562,14 @@ h1 {
     object-fit: cover;
     width: 100%;
     height: 700px;
+    display: none;
   }
 
   .videostor {
     position: absolute;
-    object-fit: fill;
+    object-fit: cover;
     width: 100%;
-    height: 600px;
-    display: none;
+    height: 700px;
   }
 
   .card11 {
@@ -888,14 +888,16 @@ h1 {
 
 @media screen and (max-width: 766px) {
   .content {
-    padding-top: 150px;
-
+    padding-top: 90vh;
+    height: 100vh;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    display: none;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: last baseline;
   }
   .gladbild {
     object-fit: cover;
@@ -945,6 +947,11 @@ h1 {
     width: 100%;
     height: 100vh;
     background-color: black;
+  }
+
+  .scroll {
+    height: 64px;
+    width: 64px;
   }
   .video {
     position: absolute;
