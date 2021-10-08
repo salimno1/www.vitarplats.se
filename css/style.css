@@ -954,6 +954,7 @@ h1 {
   .scroll {
     height: 64px;
     width: 64px;
+    opacity: 40%;
   }
   .video {
     position: absolute;
