@@ -1240,6 +1240,7 @@ h1 {
     width: 100%;
     border-top: 2px rgb(133, 95, 168) solid;
     padding-top: 50px;
+    margin-top: 40px;
   }
 
   .navbar {
