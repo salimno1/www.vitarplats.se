@@ -1341,6 +1341,12 @@ h1 {
     width: 24px;
     margin-bottom: 10px;
   }
+  h3 {
+    font-size: small;
+  }
+  h2 {
+    font-size: small;
+  }
 }
 
 .logga {
