@@ -21,6 +21,9 @@ h1 {
 }
 
 @media screen and (min-width: 960px) {
+  .liten {
+    display: none;
+  }
   .content {
     padding-top: 240px;
 
@@ -505,6 +508,9 @@ h1 {
 }
 
 @media screen and (min-width: 767px) and (max-width: 959px) {
+  .liten {
+    display: none;
+  }
   .gladbild {
     object-fit: cover;
     width: 100%;
